@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    html, body {
+	    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	    color: #777777;
+      background-color: #efefef;
+    }
+
+    .navbar-brand {
+      background-color: red;
+      color: white !important;
+   }
+   
+   .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      color: #cccccc !important;
+      background-color: silver;
+    }
+
+    h2 {
+      color: rgb(88, 87, 87);
+    }
+    
+    .row.content {height: 450px}
+
+    .btn {
+      background-color: red;
+      margin: 70px;
+      margin-top: 20px;
+    }
+    
+    body {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    footer {
+      background-color: silver;
+      padding: 20px;
+      position: absolute;
+    	left: 0;
+    	bottom: 0;
+    	width: 100%;
+    	padding: 3em;
+    	text-align: center;
+      font-size: 0.8em;
+      color: gray;
+      border-top: 7px solid red;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Rojin Pourkhomami</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <form>
+    <h2>Contact</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" placeholder="John Smith" id="name">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" placeholder="example@gmail.com" id="email">
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-md-40">
+        <div class="form-group">
+          <label for="message">Message</label>
+          <input type="text" class="form-control" id="message" placeholder="">
+        </div>
+      </div>
+</div>
+
+<div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+<footer class="container-fluid text-center">
+      <p style="size:12px;">Copyright 2018 Rojin Pourkhomami</p>
+</footer>
+
+
+</body>
+</html>
